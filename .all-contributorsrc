@@ -1,0 +1,20 @@
+{
+  "projectName": "react-menu",
+  "projectOwner": "fiftify",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "fiftify",
+      "name": "Shubham Tiwari",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35021704?s=460&v=4",
+      "profile": "https://lockround.github.io",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}

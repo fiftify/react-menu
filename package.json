@@ -1,0 +1,44 @@
+{
+  "name": "react-menu-hoc",
+  "version": "1.0.0",
+  "description": "react menu HOCs",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "glsl-easings": "^1.0.0",
+    "query-selector": "^1.0.9"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.16",
+    "@storybook/addon-links": "^3.2.16",
+    "@storybook/react": "^3.2.16",
+    "@storybook/storybook-deployer": "^2.0.0",
+    "all-contributors-cli": "^4.10.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "prettier": "^1.8.2"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-components": "^2.2.4"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "build-storybook": "build-storybook",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
+    "deploy-storybook": "storybook-to-ghpages",
+    "storybook": "start-storybook -p 9009"
+  },
+  "main": "lib/index.js",
+  "keywords": [],
+  "author": "Shubham Tiwari",
+  "license": "MIT"
+}
